@@ -23,6 +23,6 @@ Disclaimer: The book is distributed on the “read first, buy later” principle
 Sources:
 
 - [Book](http://www.mlebook.com/wiki/doku.php?id=start)
-- [Blog](https://staituned.com/learn/expert/30-days-of-machine-leaening-engineering)
+- [Blog](https://staituned.com/learn/expert/30-days-of-machine-learning-engineering)
 - Github: [#66DaysOfDataChallenge](https://github.com/francescodisalvo05/66DaysOfData)
 - Github: [#30DaysOfMachineLearningEngineering](https://github.com/francescodisalvo05/30DaysOfMachineLearningEngineering)
