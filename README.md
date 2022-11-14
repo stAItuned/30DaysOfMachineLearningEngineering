@@ -38,7 +38,7 @@ Ideally, Machine Learning **should be employed** when the problem cannot be hard
 
 On the other hand, Machine Learning **should be avoided** when every action or behavior has to be explained, when the error cost it too high, when the data is too expansive or hard to obtain, when the problem is too complex and it has too many required outcomes and when it can be eventually solved through heuristics or lookup tables.
 
-## Day 2 - Impact of a Machine Learning project
+## Day 02 - Impact of a Machine Learning project
 
 Today we went through the second chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
 
@@ -49,3 +49,26 @@ The **impact** can be measured on what it can replace from the broader engineeri
 Here is reported the potential value of **inexpensive predictions**. If we are able to develop a model which predicts a large number of observations at nearly-zero cost, we would be able to automatize the process that before that, was probably done by hand. 
 
 However, the mistakes have to be taken into account. There is always a trade-off to bear in mind. How many mistakes does it make on average? How much does a mistake cost to us?
+
+
+## Day 03 - Cost of a Machine Learning project
+
+Today we went through the second chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+It covers the **preliminary stage of any ML project**. The key aspect of any project is the prioritization, based on estimated impact and costs. 
+
+The **cost** of a ML project is mainly characterized by the **difficulty** of the problem, the cost of the **data** and the required level of **accuracy**.  The latter is probably the trickiest because the relationship between cost and performances follows a **superlinear growth** 
+
+The **first milestone** regards the difficulty of the problem, starting from already available solutions (if any) and ending with the requested computation power required. The **second milestone** is the data. It is important to understand whether the data is available and how does it cost to build the infrastructure, to label and to maintain the data.
+
+## Day 04 - Complexity of a Machine Learning project
+
+Today we went through the second chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+It covers the **preliminary stage of any ML project**. The key aspect of any project is the prioritization, based on estimated impact and costs.
+
+Estimating the **complexity** of a ML project is everything but easy. To do so, the are different ways. 
+
+- **Compare existing projects:** in can give an idea of the current state of the art
+- **Compare human performances**: this can help in order to evaluate a human benchmark in terms of time and performances.
+- **Benchmark on simpler scenarios**: try to simplify the problem and check whether if it is solvable. If so, you can start to make the model more complex in order to answer to broader requirements.
